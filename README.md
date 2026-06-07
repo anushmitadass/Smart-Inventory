@@ -1,4 +1,4 @@
-Smart Inventory Monitor- Stock & Store 🪴
+📦 Smart Inventory Monitor 🪴
 -Curated inventory, effortlessly-
 
 Never run out of stock unexpectedly again.
@@ -38,10 +38,11 @@ Email/password login via Supabase Auth
 Every action logged with user email and timestamp in the Activity Log
 
 6. UI
-
+   
 Warm nude tones, Times New Roman, carousel layout
 Dark / Light mode toggle
 Clean, minimal, no clutter
+
 ---
 
 ## 🛠️ Tech Stack
