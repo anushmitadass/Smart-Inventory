@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Smart Inventory Monitor- Stock & Store 🪴
+-Curated inventory, effortlessly-
 
-## Getting Started
+Never run out of stock unexpectedly again.
 
-First, run the development server:
+Stock & Store is a full-stack smart inventory monitor built for small businesses, clinics, cafes, and organizations who are tired of managing spreadsheets and waking up to empty shelves.
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✦ Features
+1. Stock Management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Add items with category, unit, minimum threshold, price, expiry date, and supplier notes
+Log stock IN (restocked) and OUT (consumed/sold) with every movement tracked
+Bulk update multiple items at once — perfect after a large delivery
+Full transaction history per item
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Smart Alerts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔴 Critical, 🟡 Low Stock, 🟢 Healthy — live status on every item
+Expiry alerts for items expiring within 30 days
+Reorder reminders panel for everything below minimum stock
 
-## Learn More
+3. ML Forecasting
 
-To learn more about Next.js, take a look at the following resources:
+Predicts days until stockout using Linear Regression on past consumption
+Suggests how much to reorder based on 30-day usage patterns
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Reports & Analytics
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Monthly report — total restocked vs consumed, top 5 most used items
+Consumption trends chart — daily IN vs OUT over the last 7 days
+Total inventory value in ₹ across all items
+Waste tracker — log expired, damaged, or lost stock with reasons
 
-## Deploy on Vercel
+5. Auth & Logs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Email/password login via Supabase Auth
+Every action logged with user email and timestamp in the Activity Log
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. UI
+
+Warm nude tones, Times New Roman, carousel layout
+Dark / Light mode toggle
+Clean, minimal, no clutter
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* FastAPI
+* Python
+
+### Database
+
+* Supabase(PostgreSQL)
+
+### Machine Learning
+
+* Pandas
+* Scikit-learn
+* NumPy
+
+---
+
+## 🎯 Project Goal
+
+Small businesses often rely on spreadsheets to manage inventory, leading to stock shortages, overstocking, and inefficient planning.
+
+Smart Inventory Monitor+ provides a centralized platform that helps organizations proactively manage inventory through automation, analytics, and predictive insights.
+
+---
+
+## 📊 Future Enhancements
+
+* QR Code-Based Inventory Tracking
+* Multi-Branch Inventory Management
+* Supplier Performance Analytics
+* Expiry Date Monitoring
+* Inventory Anomaly Detection
+* Automated Purchase Order Generation
+
+---
+
+## 📌 Key Benefits
+
+* Reduce stock shortages
+* Improve inventory visibility
+* Optimize purchasing decisions
+* Minimize dead stock
+* Enable data-driven inventory planning
+
+---
+
+## 👨‍💻 Author
+
+Developed as a full-stack project to demonstrate inventory management, analytics, and machine learning concepts using modern web technologies.
+
