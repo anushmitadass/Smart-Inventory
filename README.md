@@ -1,7 +1,7 @@
 # 📦 Smart Inventory Monitor- Stock & Store
 ### *Intelligent Stock Tracking & Demand Forecasting Platform*
 
-> Never run out of stock unexpectedly again.
+> Never run out of stock unexpectedly again!
 
 Stock & Store is a full-stack smart inventory monitor built for small businesses, clinics, cafes, and organizations who are tired of managing spreadsheets and waking up to empty shelves.
 
